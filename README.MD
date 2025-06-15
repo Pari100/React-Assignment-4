@@ -46,15 +46,6 @@ Welcome to the **React Admin Dashboard** – a modern, feature-rich, and highly 
 - **Performance & Accessibility:**  
   Designed with accessibility best practices, fast loading states, and smooth animations for enhanced usability.
 
----
-
-## Screenshots
-
-![Dashboard Overview](https://placehold.co/1280x720?text=React+Admin+Dashboard+Overview&font=Inter&bg=1a202c&fg=white)  
-*Responsive dashboard with real-time data insights and activity feed.*
-
----
-
 ## Getting Started
 
 To get this dashboard up and running quickly:
