@@ -1,0 +1,62 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --color-primary: #6366f1;
+  --color-primary-dark: #4f46e5;
+}
+
+[data-color-scheme="indigo"] {
+  --color-primary: #6366f1;
+  --color-primary-dark: #4f46e5;
+}
+
+[data-color-scheme="emerald"] {
+  --color-primary: #10b981;
+  --color-primary-dark: #059669;
+}
+
+[data-color-scheme="rose"] {
+  --color-primary: #f43f5e;
+  --color-primary-dark: #e11d48;
+}
+
+[data-color-scheme="amber"] {
+  --color-primary: #f59e0b;
+  --color-primary-dark: #d97706;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(156, 163, 175, 0.5);
+  border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(156, 163, 175, 0.8);
+}
+
+/* Dark mode scrollbar */
+.dark ::-webkit-scrollbar-thumb {
+  background: rgba(75, 85, 99, 0.5);
+}
+
+.dark ::-webkit-scrollbar-thumb:hover {
+  background: rgba(75, 85, 99, 0.8);
+}
+
+/* Smooth transitions */
+* {
+  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
+}
